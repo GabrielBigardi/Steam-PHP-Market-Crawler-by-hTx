@@ -2,6 +2,7 @@
 
 $apikey = 'PUSHBULLET API KEY';
 $deviceid = 'PUSHBULLET DEVICE ID';
+$itemname = 'StatTrak%E2%84%A2%20AWP%20%7C%20Atheris%20%28Factory%20New%29';
 
 function pushbullet($msg){
 $data = json_encode(array( 'type' => 'note', 'title' => 'Steam Market Crawler by hTx', 'body' => $msg, 'device_iden' => $deviceid ));
@@ -19,7 +20,7 @@ curl_close($curl);
 
 
 $ch = curl_init();
-curl_setopt( $ch, CURLOPT_URL, 'https://steamcommunity.com/market/priceoverview/?appid=730&currency=7&market_hash_name=StatTrak%E2%84%A2%20AWP%20%7C%20Atheris%20%28Factory%20New%29' );
+curl_setopt( $ch, CURLOPT_URL, 'https://steamcommunity.com/market/priceoverview/?appid=730&currency=7&market_hash_name=' . $itemname );
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true );
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 $retorno = curl_exec( $ch );
