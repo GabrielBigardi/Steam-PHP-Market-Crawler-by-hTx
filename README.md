@@ -11,5 +11,5 @@
 8 - Run it on browser on some http server or do a cron job for automating the process using the parameters "php job.php".  
   
 # Credits:
-Gabriel Bigardi (programmer)
+Gabriel Bigardi (programmer)  
 PHP Brasil (Community that helped me)
