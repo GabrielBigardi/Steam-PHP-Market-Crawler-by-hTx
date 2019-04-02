@@ -12,4 +12,4 @@
   
 # Credits:
 Gabriel Bigardi (programmer)  
-PHP Brasil (Community that helped me)
+PHP Brasil (Facebook community that helped me)
