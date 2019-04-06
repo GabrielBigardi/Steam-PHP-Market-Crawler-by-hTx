@@ -2,7 +2,7 @@
   
 # Tutorial:
 1 - Go to https://www.pushbullet.com/ and create a free account.  
-2 - Set up your phone following documentation.  
+2 - Set up your phone by following the documentation.  
 3 - Go to https://www.pushbullet.com/#settings/account and click on "Create Access Token", that's your API Key.  
 4 - Download PushBullet apk on your phone and sign in, test sending some notification to your phone using the app.  
 5 - Download the "job.php".  
