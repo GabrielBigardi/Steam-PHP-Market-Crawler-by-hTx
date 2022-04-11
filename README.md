@@ -1,4 +1,4 @@
-# Steam PHP Market Crawler by hTx
+# Steam PHP Market Crawler
   
 # Tutorial:
 1 - Go to https://www.pushbullet.com/ and create a free account.  
